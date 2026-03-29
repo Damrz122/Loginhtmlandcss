@@ -1,6 +1,0 @@
-<!DOCTYPE html> <!--Doctype es el que informa al navegador que version estamos usando, es una declaracion que signficia "Documente type declaration"-->
-<!--Elemento: componente básico de html, usamos estos para definir nuestra estructura html - Element-->
-<!--Etiquetas: permiten definir los elementos los elemntos del html, especifican el tipo de elemento que se creara - Tag-->
-<html> </html> <!--Etiqueta--> <!-- <n> E. para abrir -- </n> E. para cerrar -->
-<h1>!Hola, mundo</h1>
-<!--Existen etiquetas que no necesitan cierre: Self-Closing Tags, por ejemplo <img>-->
