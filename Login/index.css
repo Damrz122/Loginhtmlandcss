@@ -5,8 +5,8 @@ body {
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("/página/image2.jpg");
   background-repeat: no-repeat;
-  background-position: auto;
-  background-size: auto;
+  background-position: center;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,6 +56,59 @@ h3 {
   width: 80%;
   padding-left: 9px;
   color: white;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+}
+
+#Datos .Rellenar::placeholder {
+  font-family: "Poppins", sans-serif;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.caja-clave {
+  position: relative;
+  width: 80%;
+  margin-left: 2vh;
+}
+
+.caja-clave .Rellenar {
+  width: 100%;
+  margin-left: 0;
+  box-sizing: border-box;
+  padding-right: 35px;
+}
+
+.ver-clave {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  filter: grayscale(100%) brightness(200%);
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.ver-clave:hover {
+  opacity: 1;
+}
+
+.olvide-clave {
+  display: block;
+  text-align: right;
+  width: 80%;
+  margin-left: 2vh;
+  margin-top: 8px;
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.olvide-clave:hover {
+  color: white;
+  text-decoration: underline;
 }
 
 #Datos button {
@@ -84,3 +137,4 @@ h3 {
   background-color: rgba(65, 65, 65, 0.267);
   border-style: none;
 }
+  

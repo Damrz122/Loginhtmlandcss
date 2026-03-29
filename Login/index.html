@@ -10,24 +10,34 @@
 
 <body>
     <div class="container">
-
         <h2>INGRESAR USUARIO</h2>
         <div id="Datos">
             <h3>USUARIO</h3>
             <form action="">
                 <input class="Rellenar" type="text" placeholder="INGRESAR USUARIO" required>
             </form>
+
             <h3>CLAVE</h3>
             <form action="">
-                <input class="Rellenar" type="password" placeholder="INGRESAR CLAVE" required>
+                <div class="input-grupo">
+                    <input class="Rellenar" id="inputClave" type="password" placeholder="INGRESAR CLAVE" required>
+                    <div class="ver-clave" onclick="mostrarClave()">
+                        <svg class="icono-ojo" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M2.036 12.322a1.012 1.012 0 010-.644C3.123 7.846 7.334 5.25 12 5.25c4.666 0 8.877 2.596 11.964 6.428a1.012 1.012 0 010 .644C20.877 16.154 16.666 18.75 12 18.75c-4.666 0-8.877-2.596-11.964-6.428z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                    </div>
+                </div>
             </form>
-            <button class="Acceder">
-                ACCEDER
-            </button>
 
+            <a href="#" class="olvide-clave">¿Olvidaste tu contraseña?</a>
+
+            <button class="Acceder">ACCEDER</button>
         </div>
     </div>
-
+    <script src="index.js"></script>
 </body>
 
 </html>
